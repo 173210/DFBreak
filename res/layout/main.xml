@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2013 173210 <root.3.173210@live.com>
+
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License as
+  ~ published by the Free Software Foundation; either version 3 of
+  ~ the License, or (at your option) any later version.
+  ~ 
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  ~ General Public License for more details.
+  ~ 
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+-->
+<GridLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="3"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/addr_textView"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:text="@string/addr_textView_text" />
+
+    <Spinner
+        android:id="@+id/addr_spinner"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:entries="@array/addr_spinner_entries" />
+
+    <EditText
+        android:id="@+id/addr_editText"
+        android:layout_column="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:hint="@string/addr_editText_hint" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/verifying_checkBox"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_row="1"
+        android:checked="true"
+        android:text="@string/verifying_checkBox_text" />
+
+    <Button
+        android:id="@+id/exec_button"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:gravity="right"
+        android:text="@string/exec_button_text" />
+
+    <Button
+        android:id="@+id/reboot_button"
+        android:layout_column="3"
+        android:layout_row="1"
+        android:gravity="right"
+        android:text="@string/reboot_button_text" />
+
+    <TextView
+        android:id="@+id/out_textView"
+        android:layout_width="match_parent"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="2"
+        android:scrollbars="vertical"
+        android:text="@string/out_textView_text" />
+
+</GridLayout>
