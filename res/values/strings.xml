@@ -19,26 +19,28 @@
 
 <resources>
     <string name="app_name">DFBreak</string>
-    <string name="addr_textView_text">アドレス(FW指定)</string>
-    <string name="addr_spinner_entry_201301111156">0.201.201301111156</string>
-    <string name="addr_spinner_entry_201307221456">0.201.201307221456</string>
-    <string name="addr_spinner_manual">自分で指定</string>
-    <string name="verifying_checkBox_text">書き込み前にアドレスを確認する</string>
+    <string name="offset_textView_text">オフセット(FW指定)</string>
+    <string name="offset_spinner_entry_201301111156">0.201.201301111156</string>
+    <string name="offset_spinner_entry_201307221456">0.201.201307221456</string>
+    <string name="offset_spinner_manual">自分で指定</string>
+    <string name="verifying_checkBox_text">書き込み前にオフセットを確認する</string>
     <string name="exec_button_text">実行</string>
     <string name="reboot_button_text">再起動</string>
-    <string name="out_textView_text">DFBreak version 1.0\n\
+    <string name="out_textView_text">DFBreak version 1.1\n\
 Copyright © 2013 173210 このソフトウェアはGPLv3でライセンスされています。\n\n
 </string>
-    <string name="out_addr_found">現在のファームウェアに対応するアドレスが見つかりました。\n</string>
-    <string name="out_addr_notfound">現在のファームに対応するアドレスが見つかりませんでした。\n</string>
+    <string name="out_offset_found">現在のファームウェアに対応するオフセットが見つかりました。\n</string>
+    <string name="out_offset_notfound">現在のファームに対応するオフセットが見つかりませんでした。\n</string>
     <string name="out_dev_opening">デバイスファイルを開いています…\n</string>
-    <string name="out_seeking">指定されたアドレスに移動しています…\n</string>
-    <string name="out_su_opening">suを開いています…\n</string>
+    <string name="out_seeking">指定されたオフセットに移動しています…\n</string>
+    <string name="out_orig_su_opening">オリジナルのsuを開いています…\n</string>
     <string name="out_verifying">データを確認しています…\n</string>
     <string name="out_invalid">データが一致しません。終了します。\n</string>
-    <string name="out_su_closing">suを閉じています…\n</string>
+    <string name="out_orig_su_closing">オリジナルのsuを閉じています…\n</string>
+    <string name="out_insert_su_opening">書き込むsuを開いています…\n</string>
     <string name="out_writing">書き込んでいます…（電源を切らないでください）\n</string>
     <string name="out_dev_closing">デバイスファイルを閉じています…\n</string>
+    <string name="out_insert_su_closing">書き込むsuを閉じています…\n</string>
     <string name="out_complete">完了しました。端末を再起動してください。\n</string>
-    <string name="addr_editText_hint">アドレス</string>
+    <string name="offset_editText_hint">オフセット</string>
 </resources>

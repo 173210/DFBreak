@@ -18,9 +18,9 @@
   -->
 
 <resources>
-    <string-array name="addr_spinner_entries">
-        <item>@string/addr_spinner_entry_201301111156</item>
-        <item>@string/addr_spinner_entry_201307221456</item>
-        <item>@string/addr_spinner_manual</item>
+    <string-array name="offset_spinner_entries">
+        <item>@string/offset_spinner_entry_201301111156</item>
+        <item>@string/offset_spinner_entry_201307221456</item>
+        <item>@string/offset_spinner_manual</item>
     </string-array>
 </resources>
