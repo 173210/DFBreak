@@ -20,61 +20,38 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:columnCount="4"
-    android:rowCount="3"
+    android:columnCount="3"
+    android:rowCount="2"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:id="@+id/offset_textView"
-        android:layout_column="0"
-        android:layout_row="0"
-        android:text="@string/offset_textView_text" />
-
-    <Spinner
-        android:id="@+id/offset_spinner"
-        android:layout_column="1"
-        android:layout_row="0"
-        android:entries="@array/offset_spinner_entries" />
-
-    <EditText
-        android:id="@+id/offset_editText"
-        android:layout_column="2"
-        android:layout_gravity="fill_horizontal"
-        android:layout_row="0"
-        android:hint="@string/offset_editText_hint" >
-
-        <requestFocus />
-    </EditText>
-
     <CheckBox
-        android:id="@+id/verifying_checkBox"
+        android:id="@+id/test_checkBox"
         android:layout_column="0"
-        android:layout_columnSpan="3"
-        android:layout_row="1"
-        android:checked="true"
-        android:text="@string/verifying_checkBox_text" />
+        android:layout_gravity="left|center_vertical"
+        android:layout_row="0"
+        android:text="@string/test_checkBox_text" />
 
     <Button
         android:id="@+id/exec_button"
-        android:layout_column="3"
+        android:layout_column="1"
         android:layout_row="0"
         android:gravity="right"
         android:text="@string/exec_button_text" />
 
     <Button
         android:id="@+id/reboot_button"
-        android:layout_column="3"
-        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_row="0"
         android:gravity="right"
         android:text="@string/reboot_button_text" />
 
     <TextView
         android:id="@+id/out_textView"
         android:layout_width="match_parent"
-        android:layout_height="232dp"
+        android:layout_height="320px"
         android:layout_column="0"
-        android:layout_columnSpan="4"
-        android:layout_row="2"
+        android:layout_columnSpan="3"
+        android:layout_row="1"
         android:scrollbars="vertical"
         android:text="@string/out_textView_text" />
 

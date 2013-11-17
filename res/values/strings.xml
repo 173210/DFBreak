@@ -19,28 +19,25 @@
 
 <resources>
     <string name="app_name">DFBreak</string>
-    <string name="offset_textView_text">オフセット(FW指定)</string>
-    <string name="offset_spinner_entry_201301111156">0.201.201301111156</string>
-    <string name="offset_spinner_entry_201307221456">0.201.201307221456</string>
-    <string name="offset_spinner_manual">自分で指定</string>
-    <string name="verifying_checkBox_text">書き込み前にオフセットを確認する</string>
+    <string name="test_checkBox_text">テストモード</string>
     <string name="exec_button_text">実行</string>
     <string name="reboot_button_text">再起動</string>
-    <string name="out_textView_text">DFBreak version 1.1\n\
+    <string name="out_textView_text">DFBreak version 2.0\n\
 Copyright © 2013 173210 このソフトウェアはGPLv3でライセンスされています。\n\n
 </string>
-    <string name="out_offset_found">現在のファームウェアに対応するオフセットが見つかりました。\n</string>
-    <string name="out_offset_notfound">現在のファームに対応するオフセットが見つかりませんでした。\n</string>
-    <string name="out_dev_opening">デバイスファイルを開いています…\n</string>
-    <string name="out_seeking">指定されたオフセットに移動しています…\n</string>
-    <string name="out_orig_su_opening">オリジナルのsuを開いています…\n</string>
-    <string name="out_verifying">データを確認しています…\n</string>
-    <string name="out_invalid">データが一致しません。終了します。\n</string>
-    <string name="out_orig_su_closing">オリジナルのsuを閉じています…\n</string>
-    <string name="out_insert_su_opening">書き込むsuを開いています…\n</string>
-    <string name="out_writing">書き込んでいます…（電源を切らないでください）\n</string>
-    <string name="out_dev_closing">デバイスファイルを閉じています…\n</string>
-    <string name="out_insert_su_closing">書き込むsuを閉じています…\n</string>
+    <string name="out_orig_su_opening">オリジナルのsuを開いています...\n</string>
+    <string name="out_orig_su_allocating">オリジナルのsuを読み込むバッファを割り当てています...\n</string>
+    <string name="out_orig_su_loading">オリジナルのsuを読み込んでいます...\n</string>
+    <string name="out_orig_su_closing">オリジナルのsuを閉じています...\n</string>
+    <string name="out_dev_opening">デバイスファイルを開いています...\n</string>
+    <string name="out_su_searching">suを検索しています(しばらくかかります)...\n</string>
+    <string name="out_su_found">suが見つかりました。オフセット: </string>
+    <string name="out_dev_seeking">suの位置に移動しています...\n</string>
+    <string name="out_replace_su_opening">差し替えるsuを開いています...\n</string>
+    <string name="out_replace_su_allocating">差し替えるsuを読み込むバッファを割り当てています...\n</string>
+    <string name="out_replace_su_loading">差し替えるsuをバッファに読み込んでいます...\n</string>
+    <string name="out_replace_su_closing">差し替えるsuを閉じています...\n</string>
+    <string name="out_writing">書き込んでいます（電源を切らないでください）...\n</string>
+    <string name="out_dev_closing">デバイスファイルを閉じています...\n</string>
     <string name="out_complete">完了しました。端末を再起動してください。\n</string>
-    <string name="offset_editText_hint">オフセット</string>
 </resources>
